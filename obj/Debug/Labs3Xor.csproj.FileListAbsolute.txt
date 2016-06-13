@@ -1,0 +1,12 @@
+D:\Docs\КМЗИ\Labs\Labs3Xor\bin\Debug\Labs3Xor.exe.config
+D:\Docs\КМЗИ\Labs\Labs3Xor\bin\Debug\Labs3Xor.exe
+D:\Docs\КМЗИ\Labs\Labs3Xor\bin\Debug\Labs3Xor.pdb
+D:\Docs\КМЗИ\Labs\Labs3Xor\obj\Debug\Labs3Xor.csprojResolveAssemblyReference.cache
+D:\Docs\КМЗИ\Labs\Labs3Xor\obj\Debug\Labs3Xor.exe
+D:\Docs\КМЗИ\Labs\Labs3Xor\obj\Debug\Labs3Xor.pdb
+C:\Users\Дмитрий\Desktop\кмзи\Lab3Xor\bin\Debug\Labs3Xor.exe.config
+C:\Users\Дмитрий\Desktop\кмзи\Lab3Xor\obj\Debug\Labs3Xor.exe
+C:\Users\Дмитрий\Desktop\кмзи\Lab3Xor\obj\Debug\Labs3Xor.pdb
+C:\Users\Дмитрий\Desktop\кмзи\Lab3Xor\bin\Debug\Labs3Xor.exe
+C:\Users\Дмитрий\Desktop\кмзи\Lab3Xor\bin\Debug\Labs3Xor.pdb
+C:\Users\Дмитрий\Desktop\кмзи\Lab3Xor\obj\Debug\Labs3Xor.csprojResolveAssemblyReference.cache
