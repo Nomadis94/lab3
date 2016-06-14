@@ -1,13 +1,6 @@
 ﻿using System;
 using System.Text;
 
-echo "# lab3" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/Nomadis94/lab3.git
-git push -u origin master
-
 namespace Labs3Xor
 {
     class Program
