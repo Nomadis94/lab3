@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Text;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 namespace Labs3Xor
 {
     class Program
