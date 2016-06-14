@@ -1,12 +1,6 @@
 ﻿using System;
 using System.Text;
 
-echo "# lab3" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/Nomadis94/lab3.git
-git push -u origin master
 
 namespace Labs3Xor
 {
@@ -18,7 +12,7 @@ namespace Labs3Xor
             string Encrypted = Encrypt(InpStr);
 
             Console.WriteLine("\nЗашифрованная строка: "+Encrypted);
-            Console.WriteLine("Расшифрованная строка:\n"+Encrypt(Encrypted, false));
+            Console.WriteLine("Расшифрованная строка:\n"+Encrypt(Encrypted, true));
             Console.ReadKey();
         }
 
@@ -26,8 +20,9 @@ namespace Labs3Xor
         {
             string Res = "";
             // Смена кодировки
-            byte[] bInpStr = Encoding.Unicode.GetBytes(InpStr);
-            bInpStr = Encoding.Convert(Encoding.Unicode, Encoding.GetEncoding(1251), bInpStr);
+            //byte[] bInpStr = Encoding.Unicode.GetBytes(InpStr);
+            byte[] bInpStr = Encoding.GetEncoding(1251).GetBytes(InpStr);
+            //bInpStr = Encoding.Convert(Encoding.Unicode, Encoding.GetEncoding(1251), bInpStr);
             // Наш датчик ПСЧ
             PsRandom psRand = new PsRandom();
             
@@ -44,7 +39,7 @@ namespace Labs3Xor
                     //if (i % 16 == 0 && i != 0) Console.WriteLine();
                 }
             }
-            /*
+            ///*
             else
                 // Вычитаем гамму
                 for (int i = 0; i < bInpStr.Length; i++)
@@ -53,7 +48,7 @@ namespace Labs3Xor
                     bInpStr[i] = (byte)((bInpStr[i] - iRand));
 
                 }
-                */
+                //*/
             Res = Encoding.GetEncoding(1251).GetString(bInpStr);
             return Res;
         }
